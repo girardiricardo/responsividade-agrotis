@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Banners from './components/Banners';
+import Footer from './components/Footer';
 
 import { Wrapper } from './styles'
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Banners />
+      <Footer />
     </Wrapper>
   );
 }

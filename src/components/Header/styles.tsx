@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper  = styled.div`
-  margin-top: 20px;
-  padding: 0 50px;
+  padding: 50px 50px 0 50px;
   display: flex;
   justify-content: space-between;
 
