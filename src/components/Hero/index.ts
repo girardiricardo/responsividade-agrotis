@@ -1,3 +1,3 @@
-import Banners from './Banners'
+import Hero from './Hero'
 
-export default Banners
+export default Hero

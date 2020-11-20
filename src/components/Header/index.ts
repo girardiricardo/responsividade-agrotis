@@ -1,3 +1,3 @@
-import Banners from './Banners'
+import Header from './Header'
 
-export default Banners
+export default Header

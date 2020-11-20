@@ -1,40 +1,28 @@
 import styled from 'styled-components';
 
 export const Wrapper  = styled.div`
-  margin-top: 20px;
-  padding: 0 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
 
-  > ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-
-    > li {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-
-      > button {
-        margin-left: 10px;
-        padding: 0 22px;
-        height: 40px;
-        
-        border: 0;
-        background-color: transparent;
-        border-radius: 6px 0 6px 0;
-        transition: opacity 200ms;
-        color: white;
-        font-weight: 500;
-        font-size: 14px;
-
-        &:hover {
-          opacity: 0.8;
-          transition: opacity 200ms;
-        }
-      }
-    }
+  > img {
+    width: 500px;
   }
 
+  > div {
+    width: 400px;
+    margin-left: 10px;
+
+    > p {
+      font-weight: 400;
+    }
+
+    > button {
+      padding: 0 22px;
+      height: 35px;
+    }
+  }
 `
