@@ -19,4 +19,11 @@ export const Wrapper  = styled.div`
     height: 30px;
     border-radius: 6px;
   }
+
+  /* Mobile */
+  @media (min-width: 320px) and (max-width: 480px) {
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 `

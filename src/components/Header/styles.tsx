@@ -5,6 +5,10 @@ export const Wrapper  = styled.div`
   display: flex;
   justify-content: space-between;
 
+  > button {
+    display: none;
+  }
+
   > ul {
     display: flex;
     padding: 0;
@@ -36,4 +40,16 @@ export const Wrapper  = styled.div`
     }
   }
 
+  /* Mobile */
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 20px;
+
+    > ul {
+      display: none;
+    }
+
+    > button {
+      display: inline;
+    }
+  }
 `

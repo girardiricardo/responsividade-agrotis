@@ -19,6 +19,7 @@ const Banners: React.FC = () => {
         <button>CONTATO</button>
       </li>
     </ul>
+    <button>MENU</button>
   </Wrapper>;
 }
 
